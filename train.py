@@ -88,4 +88,3 @@ mod.save_weights('./mods/cifar_mod_weights.h5', overwrite=True)
 # 使用完模型之后，清空之前mod占用的内存
 K.clear_session()
 tf.reset_default_graph()
-
